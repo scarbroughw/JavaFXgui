@@ -58,7 +58,7 @@ public class JavaFXDemo extends Application {
     				System.out.println("\nCongrats! You're a true RapidClick Gamer!");
     			}
     			else
-    				System.out.println("Keep clicking you pussy.  You're not done yet!!");
+    				System.out.println("Keep clicking!  You're not done yet!!");
     		}
     		
     	});
