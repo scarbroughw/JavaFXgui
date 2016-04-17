@@ -5,6 +5,7 @@ import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 import javafx.scene.control.Button;
 import javafx.scene.Scene;
+import javafx.scene.layout.HBox;
 
 /**
  *  @author Bill Scarbrough
@@ -62,7 +63,7 @@ public class JavaFXDemo extends Application {
     		
     	});
     	
-    	StackPane root = new StackPane();
+    	HBox root = new HBox();
     	
     	root.getChildren().add(click);
     	root.getChildren().add(show);
